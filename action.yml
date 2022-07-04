@@ -1,0 +1,13 @@
+name: 'Hello World'
+description: 'Testing JS Github Actions'
+inputs:
+  who-to-greet:
+    description: 'Me x)'
+    required: true
+    default: 'World'
+outputs:
+  time:
+    description: 'Eheheh'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
